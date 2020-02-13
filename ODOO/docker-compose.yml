@@ -6,7 +6,7 @@ services:
   odoo:
     tty: true
     stdin_open: true
-    build: ./odoo/
+    image: odoo
     ports:
       - 8069
     depends_on:
